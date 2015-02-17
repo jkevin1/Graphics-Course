@@ -1,0 +1,40 @@
+OpenGL and GLFW demo
+
+In general, there is one .hpp file per class, with the same name as
+the class. Implementation functions for the class are either in the
+corresponding .cpp file, or for inline functions in the corresponding
+.inl file.
+
+File summary:
+
+GLdemo.cpp: has the initialization and startup code, as well as the
+main drawing function. Also contains AppContext class for data used in
+GLFW callback functions.
+
+Input.hpp/Input.cpp: handles mouse motion and keyboard input. Mouse
+orbits the view around the center of the scene. WASD keys move one of
+the objects. 'L' toggles wireframe line mode. 'R' reloads shaders.
+Escape key exits.
+
+View.hpp/View.cpp: handles the shared viewing transform.
+
+Shader.hpp/Shader.cpp: functions for loading shaders.
+
+Image.hpp/Image.cpp: an image class for 1-4 channel images.
+
+Textures.hpp/Textures.cpp: code to load textures.
+
+Geometry.hpp/Geometry.cpp: code to manage geometry to draw.
+
+Cylinder.hpp/Cylinder.cpp: creates a simple cylinder shape
+
+Vec.hpp/Vec.inl: a vector class, templated over size
+
+Mat.hpp/Mat.inl: a class for square matrices, templated on size
+
+Xform.hpp/Xform.cpp: class containing a 4x4 transform and its inverse
+
+bump.vert/bump.frag: shaders implementing a physically-based bump map.
+
+pebbles.pam/pebbles-norm.pam: converted from public domain images from
+the G3D library: a diffuse albedo map and a normal map.

@@ -1,0 +1,25 @@
+# files to ignore
+
+# mac files
+.DS_Store
+*.dSYM
+*.orig
+
+# unix files
+*.o
+*~
+#*
+GLdemo
+
+# windows build files
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.pdb
+*.ncb
+*.exe
+obj
+bin
+Debug
+Release

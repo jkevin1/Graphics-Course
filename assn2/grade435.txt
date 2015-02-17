@@ -1,0 +1,25 @@
+5/ 5 - Readme
+10/10 - All source files submitted, no build files
+5/ 5 - Multiple checkins during development
+10/10 - Compiles and executes without error
+40/40 - Direct Lighting
+    5/ 5 - Light intensity & color clamping
+    5/ 5 - Surface color
+    10/10 - Diffuse
+    10/10 - Blinn-Phong
+    10/10 - Shadow Rays
+30/30 - Reflection
+    10/10 - Correct reflection direction
+    10/10 - Recursive ray
+    10/10 - Stopping conditions (bounces & total contribution)
+
+Extra credit
+/10 - Refraction
+----
+100/100
+
+Comment:
+
+0. Good job on the homework and trying out antialiasing techniques!
+
+

@@ -1,0 +1,32 @@
+30/30 - Basics
+  5/ 5 Readme
+  10/10 All source files submitted, no build files
+  5/ 5 Multiple checkins during development
+  10/10 Compiles and executes without error
+25/25 - Load cube map
+  10/10 Create GL_TEXTURE_CUBE_MAP or GL_TEXTURE_CUBE_MAP_ARRAY
+  10/10 Load images into six cube map faces
+  5/ 5 Match faces to make seamless cube
+15/15 - Texture plumbing
+  5/ 5 Set glActiveTexture and bind
+  5/ 5 Declare uniform sampler variable in fragment shader
+  5/ 5 Map active texture to shader uniform (e.g. with glUniform1i)
+15/15 - Reflection
+  5/ 5 Compute reflected view from view vector and surface normal
+  5/ 5 Transform to world space (before or after reflection computation)
+  5/ 5 Look up reflection in cube texture
+15/15 - Combine with existing shading
+  5/ 5 Height threshold between wet and dry
+  5/ 5 Fresnel reflectance computed using view and normal (not H)
+  5/ 5 Blend reflection with base color
+
+Extra Credit:
+3/ 5 - Time varying with 't' key to pause and restart
+------
+103/100
+
+Comment:
+
+0. keyboard input 't' control not implemented
+
+1. Good job!

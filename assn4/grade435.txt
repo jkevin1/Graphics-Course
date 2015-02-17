@@ -1,0 +1,33 @@
+30/30 - Basics
+  5/ 5 Readme
+  10/10 All source files submitted, no build files
+  5/ 5 Multiple checkins during development
+  10/10 Compiles and executes without error
+20/20 - View orientation
+  4/ 4 Mouse control (update from previous position)
+  8/ 8 Pan
+  8/ 8 Tilt
+25/25 - Motion
+  4/ 4 Keyboard control (using time since last update)
+  7/ 7 Compute forward/right directions from pan angle
+  7/ 7 Motion forward on 'w' & backward on 's'
+  7/ 7 Strafe left on 'a' & right on 'd'
+25/25 - View Elevation
+  10/10 Find current triangle
+  10/10 Barycentric coordinates
+  5/ 5 Above surface
+
+Extra Credit:
+/20 - Half-edge
+  / 5 Define half-edge structure
+  / 5 Build half-edge structure for terrain
+  / 3 Track current triangle
+  / 3 Follow half-edge links when viewer leaves current triangle
+  / 2 Only follow half-edge links for edge with negative barycentric
+  / 2 Keep traversing until new triangle is found (handle vertex crossings)
+------
+100/100
+
+Comment:
+
+0. Good job!

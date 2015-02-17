@@ -1,0 +1,35 @@
+5/ 5 - Initial checkin
+5/ 5 - Readme
+10/10 - All source files submitted, no build files
+5/ 5 - Multiple checkins during development
+5/ 5 - Compiles and executes without error
+20/20 - I/O
+    10/10  Parse the file correctly
+    10/10  Output image
+28/30 - Setting up rays
+    15/15  Calculate pixel positions/image plane
+    8/10  Field of view
+    5/ 5  Calculate ray
+20/20 - Intersection
+    10/10  Barycentric ray/triangle intersection (tetra)
+    10/10  Closest surface
+
+Extra credit
+/10 - Spheres
+-----
+98/100 Total
+
+Comment:
+Good job!
+
+The reason for the zoom is the usage of field of view in your code. Instead of the sine value, you should've used the tangent of the half angle.
+
+      top
+     /|
+    / |
+   /  |
+eye---|center of image
+   \  |
+    \ |
+     \|
+    bottom

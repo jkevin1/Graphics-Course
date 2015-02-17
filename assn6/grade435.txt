@@ -1,0 +1,25 @@
+30/30 - Basics
+  5/ 5 Readme
+  10/10 All source files submitted, no build files
+  5/ 5 Multiple checkins during development
+  10/10 Compiles and executes without error
+20/20 - Update control points
+  10/10 Keep X, Y, theta, and phi
+  5/ 5 Update once per second
+  5/ 5 Keep just 5 seconds
+50/50 - Replay
+  5/ 5 Start replay on keypress
+  5/ 5 Replay lasts 5 seconds
+  5/ 5 Ignore input during replay
+  5/ 5 Find correct segment
+  5/ 5 Replicate 1st and last (this could happen in update)
+  5/ 5 Get time fraction for t in polynomial
+  10/10 Compute polynomial (coefficients or basis, could be in update)
+  5/ 5 Evaluate polynomial
+  5/ 5 Goes through smoothly through points
+------
+100/100
+
+Comment:
+
+0. Good job!

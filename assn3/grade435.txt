@@ -1,0 +1,31 @@
+5/ 5 - Readme
+10/10 - All source files submitted, no build files
+5/ 5 - Multiple checkins during development
+10/10 - Compiles and executes without error
+25/25 - Parsing
+  5/ 5 Skip comments and unknown lines
+  5/ 5 Read 'v' lines with 3 numbers
+  5/ 5 Read 'vt' lines with 2 numbers
+  5/ 5 Read 'vn' lines with 3 numbers
+  5/ 5 Read 'f' lines with v/vt/vn per vertex (including varying vertex count)
+30/30 - GPU ordering
+  10/10 Combine v/vt/vn to form GPU vertex array
+  10/10 Build index array
+  10/10 Combine unique v/vt/vn into common GPU vertex index
+15/15 - Rendering
+  5/ 5 Pass vertex array to GPU code
+  5/ 5 Pass index array to GPU code
+  5/ 5 Fill in and pass valid uniform buffer to GPU code
+
+Extra Credit:
+/20 - Multi-part castle model
+  / 5 Read mtl file
+  / 5 Load multiple textures
+  / 5 Correctly create castle parts
+  / 5 Attach correct material to each castle part
+------
+100/100
+
+Comment:
+
+0. Good job!
